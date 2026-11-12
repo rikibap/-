@@ -20,7 +20,7 @@ header{
     position: absolute; 
     top: 0;
     left: 0;
-    z-index: 100; 
+    z-index: 9999; 
 }
 .header_container_1{
     height:94px;
@@ -96,10 +96,10 @@ header{
     font-size:20px;
     background-color: rgba(28, 31, 24, 1);
     color:white;
-    padding-top:20px;
-    padding-left: 37px;
-    width:212px;
-    height:44px;
+    padding-top:px;
+    padding-left: px;
+    width:249px;
+    height:66px;
     border:0cap;
     border:1px solid rgba(28, 31, 24, 1);
     font-family: 'Montserrat-SemiBold';
@@ -110,6 +110,134 @@ header{
 .h_c_1_t3:hover{
     border:1px solid rgba(88, 133, 52, 1);
     background-color: white;
+    color: rgba(88, 133, 52, 1);
+    cursor: pointer;
+}
+.modal_zakaza{
+    display:none;   
+    position:fixed;
+    width:100%;
+    height:100%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(14, 24, 14, 0.4);
+    z-index: 9999;
+    justify-content:center;
+    align-items:center;
+    margin-left:-100px;
+    margin-top:-31px;
+}
+.modal_zakaza.active{
+    display:flex; 
+    z-index: 9999;
+}
+.modal_zakaza_content{
+    width:1135px;
+    height:616px;
+    background-color: rgba(28, 31, 24, 1);
+    border-radius: 25px 0 25px 0; 
+    position:relative;
+    z-index: 9999;
+}
+.close_modal_zakaza{
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:1075px;
+    top:30px;
+    cursor: pointer;
+}
+.close_modal_zakaza:hover{
+    filter:brightness(0) invert() sepia() saturate();
+}
+.modal_zakaza_t1{
+    position: absolute;
+    left:240px;
+    top:56px;
+    font-size:55px;
+    font-family:'Montserrat-SemiBold';
+    color:white;
+}
+.modal_zakaza_t2{
+    position: absolute;
+    left:145px;
+    top:162px;
+    font-size:20px;
+    font-family:'Montserrat-Regular';
+    color:white;
+    line-height: 33px;
+}
+.modal_textarea{
+    border-radius: 25px 0 25px 0; 
+    font-family:'Montserrat-Regular';
+    width:422px;
+    height:201px;
+    position: absolute;
+    top:248px;
+    left:145px;
+    padding-top:25px;
+    padding-left:32px;
+    font-size:20px;
+    outline: none;
+}
+.modal_input{
+    border-radius: 25px 0 25px 0; 
+    font-family:'Montserrat-Regular';
+    font-size:20px;
+    position: absolute;
+    width:350px;
+    height:66px;
+    left:614px;
+    top:248px;
+    padding-left:27px;
+}
+.modal_button{
+    border:2px solid rgba(88, 133, 52, 1);
+    font-family: 'Montserrat-SemiBold';
+    background-color: rgba(88, 133, 52, 1);
+    border-radius: 25px 0 25px 0; 
+    font-size:20px;
+    position: absolute;
+    width:380px;
+    height:64px;
+    left:614px;
+    top:410px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+.modal_button:hover{
+    border:2px solid rgba(88, 133, 52, 1);
+    background-color: rgba(28, 31, 24, 1);
+    color: rgba(88, 133, 52, 1);
+    cursor: pointer;
+}
+.modal_button_arrow{
+    width:41px;
+    height:14px;
+    position: absolute;
+    top:23px;
+    left:296px;
+    z-index:999;
+}   
+.modal_button:hover .modal_button_arrow{
+    filter: brightness(0.6) invert(1) sepia(3) saturate(3) hue-rotate(50deg);
+}
+.modal_zakaza_t3{
+    font-family:'Montserrat-Regular';
+    font-size:18px;
+    color:white;
+    position: absolute;
+    top:496px;
+    left:231px;
+}
+.modal_span{
+    text-decoration: underline;
+    
+}
+.modal_span:hover{
     color: rgba(88, 133, 52, 1);
     cursor: pointer;
 }
