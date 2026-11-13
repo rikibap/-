@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brusvol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_container_1">
+            <img src="images/logo.svg" class="logo">
+            <div class="h_c_1_t1">Россия, Вологодская область, г. Вологда, ул. Гагарина, д. 145</div>
+            <div class="h_c_1_t2">8 (800) 201-96-40</div>
+            <img src="images/telegram.png" class="telegram">
+            <img src="images/whatsapp.png" class="whatsapp">
+            <img src="images/viber.png" class="viber">
+            <button id="open_modal_zakaza" class="h_c_1_t3">Заказать звонок</button>
+                <div id="modal_zakaza" class="modal_zakaza">
+                    <section class="modal_zakaza_content">
+                        <img src="images/close.svg" id="close_modal_zakaza" class="close_modal_zakaza">
+                        <div class="modal_zakaza_t1">Нужна консультация?</div>
+                        <div class="modal_zakaza_t2">Оставьте заявку на обратную связь.<br>Мы свяжемся с вами в удобное для Вас время.</div>
+                        <form class="modal_form">
+                            <textarea class="modal_textarea" placeholder="Описание задачи"></textarea>
+                            <input class="modal_input" placeholder="Ваше имя" required>
+                            <input class="modal_input" style=" position:absolute; top:329px;" placeholder="Ваш телефон" required>
+                            <button type="submit" class="modal_button">Отправить заявку 
+                                <img src="images/baner_knopka_arrow.svg" class="modal_button_arrow">
+                            </button>
+                        </form>
+                        <div class="modal_zakaza_t3">Нажимая кнопку, Вы соглашаетесь <span class="modal_span">на обработку персональных данных</span></div>
+                    </section>
+                </div>
+        </div>
+        <div id="header_container_2" class="header_container_2">
+            <a class="h_c_2_t1">О компании</a>
+            <a class="h_c_2_t2">Каталог проектов</a>
+            <a class="h_c_2_t3">Наши работы</a>
+            <a class="h_c_2_t4">Производство</a>
+            <a class="h_c_2_t5">Материалы</a>
+            <a class="h_c_2_t6">Акции</a>
+            <a class="h_c_2_t7">Контакты</a>
+            <div id="lupa" class="lupa_container">
+                <img src="images/lupa.svg" class="lupa">
+            </div>
+        </div>
+        <div id="poisk" class="poisk">
+            <div class="vpoisk">
+                <input type="text" placeholder="Поиск" class="poisk_input">
+                <img src="images/lupa.svg" class="lupa_input">
+            </div>
+        </div>
+    </header>
+    <section class="ekran1">
+        <div class="baner">
+            <img src="images/baner.png" class="baner_img">
+            <div class="baner_t1">Строительство деревянных  домов собственного производства в Вологде</div>
+            <div class="baner_t2">· Без изменений цен в ходе строительства</div>
+            <div class="baner_t3">· Качественные дома под ключ от 900 тыс. ₽</div>
+            <div class="baner_t4">· Строительство домов с гарантией и с оплатой по факту <div style="text-indent:12px;" >завершения</div></div>
+            <div class="baner_knopka">
+                <div class="baner_knopka_t">Выбрать дом
+                    <img src="images/baner_knopka_arrow.svg" class="baner_knopka_arrow">
+                </div>
+            </div>
+        </div>
+        <img src="images/listik.png" class="listik1">
+        <div id="rasschet" class="rasschet">
+            <div id="cena_doma" class="cena_doma">
+               
+                <img src="images/cena_doma_img.png" class="cena_doma_img">
+                <div class="cena_doma_t">Рассчитать цену дома</div>
+            </div>
+            <div id="ipoteka" class="ipoteka">
+                <img src="images/ipoteka_img.png" class="ipoteka_img">
+                <div class="ipoteka_t">Дом в ипотеку    </div>                
+            </div>
+            <div class="arrow_rasschet">></div>
+        </div>
+    </section>
+    <div style="margin-top:-682px; margin-left:0px;" id="modal_cena_doma" class="modal_zakaza">
+        <section class="modal_zakaza_content">
+            <img src="images/close.svg" id="close_modal_cena_doma" class="close_modal_zakaza">
+            <div style="left:235px;" class="modal_zakaza_t1">Рассчитать цену дома</div>
+            <div class="modal_zakaza_t2">Оставьте заявку на обратную связь.<br>Мы свяжемся с вами в удобное для Вас время.</div>
+            <form class="modal_form">
+                <textarea class="modal_textarea" placeholder="Описание задачи"></textarea>
+                <input class="modal_input" placeholder="Ваше имя" required>
+                <input class="modal_input" style=" position:absolute; top:329px;" placeholder="Ваш телефон" required>
+                <button type="submit" class="modal_button">Отправить заявку 
+                    <img src="images/baner_knopka_arrow.svg" class="modal_button_arrow">
+                </button>
+            </form>
+            <div class="modal_zakaza_t3">Нажимая кнопку, Вы соглашаетесь <span class="modal_span">на обработку персональных данных</span></div>
+        </section>
+    </div>
+    <div style="margin-top:-682px; margin-left:0px;" id="modal_ipoteka" class="modal_zakaza">
+         <section class="modal_zakaza_content">
+            <img src="images/close.svg" id="close_modal_ipoteka" class="close_modal_zakaza">
+            <div style="left:275px;" class="modal_zakaza_t1">Рассчитать ипотеку</div>
+            <div class="modal_zakaza_t2">Оставьте заявку на обратную связь.<br>Мы свяжемся с вами в удобное для Вас время.</div>
+            <form class="modal_form">
+                <textarea class="modal_textarea" placeholder="Описание задачи"></textarea>
+                <input class="modal_input" placeholder="Ваше имя" required>
+                <input class="modal_input" style=" position:absolute; top:329px;" placeholder="Ваш телефон" required>
+                <button type="submit" class="modal_button">Отправить заявку 
+                    <img src="images/baner_knopka_arrow.svg" class="modal_button_arrow">
+                </button>
+            </form>
+            <div class="modal_zakaza_t3">Нажимая кнопку, Вы соглашаетесь <span class="modal_span">на обработку персональных данных</span></div>
+        </section>
+    </div>
+    <div id="manage" class="manage">
+        <img src="images/manage_img.png" class="manage_img">
+    </div>
+    <div style="margin-top:-682px; margin-left:0px;" id="modal_manage" class="modal_zakaza">
+        <section class="modal_zakaza_content">
+            <img src="images/close.svg" id="close_modal_manage" class="close_modal_zakaza">
+            <div style="left:210px;" class="modal_zakaza_t1">Консультация о покупке</div>
+            <div class="modal_zakaza_t2">Оставьте заявку на обратную связь.<br>Мы свяжемся с вами в удобное для Вас время.</div>
+            <form class="modal_form">
+                <textarea class="modal_textarea" placeholder="Описание задачи"></textarea>
+                <input class="modal_input" placeholder="Ваше имя" required>
+                <input class="modal_input" style=" position:absolute; top:329px;" placeholder="Ваш телефон" required>
+                <button type="submit" class="modal_button">Отправить заявку 
+                    <img src="images/baner_knopka_arrow.svg" class="modal_button_arrow">
+                </button>
+            </form>
+            <div class="modal_zakaza_t3">Нажимая кнопку, Вы соглашаетесь <span class="modal_span">на обработку персональных данных</span></div>
+        </section>
+    </div>
+    <section class="ekran2">
+        <div class="ekran2_z">Типы домов и их стоимость</div>
+        <img src="images/ekran2_img.png" class="ekran2_img">
+        <img src="images/listik.png" class="ekran2_listik">
+        <div class="ekran2_t1">Общая площадь, м2</div>
+        <div class="ekran2_t2">Стоимость проекта, руб</div>
+        <div class="ekran2_t3">Категория дома</div>
+        <div class="ekran2_t4">Количество этажей</div>
+        <div class="ekran2_t5">Материалы</div>
+        <div class="range_containet">
+                <div class="range-labels">
+                    <span>0 м2</span>
+                    <span style="padding-left:164px;" >500 м2</span>
+                </div>
+            <input type="range" min="0" max="500" class="range_1">
+        </div>
+    </section>
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/script3.js"></script>
+    <script src="js/script4.js"></script>
+    <script src="js/script5.js"></script>
+    <script src="js/script6.js"></script>
+    <script src="js/script7.js"></script>
+
+
+</body>
+</html>
